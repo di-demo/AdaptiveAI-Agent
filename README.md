@@ -13,9 +13,11 @@ fruit-detection
 To predict the fruits and vegetables and the probability of freshness by loading a Keras model into memory using the Flask web framework to create an endpoint for our API to make predictions using our model, JSON-ify them, and return the results to the client, Option exists to call our Keras REST API using both cURL and Python
 
 ###### Usage
-Start the server: python dnnServer.py Submit a request via cURL: curl -X POST -F image=@apple-3.jpg 'http://localhost:5000/predict' Submit a request via Python: python imgRecognition.py
+* Start the server: python dnnServer.py
+* Submit a request via cURL: curl -X POST -F image=@apple-3.jpg 'http://localhost:5000/predict' 
+* Submit a request via Python: python imgRecognition.py
 
-Sample Results:
+###### Sample JSON Response
 curl -X POST -F image=@orange-1.jpg 'http://localhost:5000/predict' {"predictions":[{"label":"orange","probability":0.9966147541999817}],"success":true}
 
 curl -X POST -F image=@pom-1.jpg 'http://localhost:5000/predict' {"predictions":[{"label":"pomegranate","probability":0.9906478524208069}],"success":true}
