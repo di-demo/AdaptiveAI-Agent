@@ -5,7 +5,7 @@
 ###### extract meta-knowledge from knowledge
 
 ###### Current Architecture
-![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecure.png)
+![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecture.png)
 
 
 ###### Sample Use Case
