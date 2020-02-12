@@ -1,8 +1,8 @@
 Adaptive Knowledge based AI powered agent to aid human cognition and act as a highly integrated personal assistant by addressing the following areas - 
-• apply qualitative data filters on huge data volumes
-• separate data from noise 
-• transform data -> information -> knowledge
-• extract meta-knowledge from knowledge
+# apply qualitative data filters on huge data volumes
+# separate data from noise 
+# transform data -> information -> knowledge
+# extract meta-knowledge from knowledge
 
 # Sample Use Case
 fruit-detection
