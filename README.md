@@ -1,18 +1,18 @@
-Adaptive Knowledge based AI powered agent to aid human cognition and act as a highly integrated personal assistant by creating data orchestration layer that handles the following areas:  
+## Adaptive Knowledge based AI powered agent to aid human cognition and act as a highly integrated personal assistant by creating data orchestration layer that handles the following areas:  
 ###### apply qualitative data filters on huge data volumes
 ###### separate data from noise 
 ###### transform data -> information -> knowledge
 ###### extract meta-knowledge from knowledge
 
-# Current Architecture
-Format: ![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecure.png)
+## Current Architecture
+![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecure.png)
 
 
-# Sample Use Case
+## Sample Use Case
 fruit-detection
 To predict the fruits and vegetables and the probability of freshness by loading a Keras model into memory using the Flask web framework to create an endpoint for our API to make predictions using our model, JSON-ify them, and return the results to the client, Option exists to call our Keras REST API using both cURL and Python
 
-Usage
+###### Usage
 Start the server: python dnnServer.py Submit a request via cURL: curl -X POST -F image=@apple-3.jpg 'http://localhost:5000/predict' Submit a request via Python: python imgRecognition.py
 
 Sample Results:
