@@ -4,7 +4,7 @@
 ###### transform data -> information -> knowledge
 ###### extract meta-knowledge from knowledge
 
-###### Current Architecture
+#### Current Architecture
 ![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecture.png)
 
 
