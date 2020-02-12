@@ -4,13 +4,12 @@
 ###### transform data -> information -> knowledge
 ###### extract meta-knowledge from knowledge
 
-## Current Architecture
+###### Current Architecture
 ![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecure.png)
 
 
-## Sample Use Case
-fruit-detection
-To predict the fruits and vegetables and the probability of freshness by loading a Keras model into memory using the Flask web framework to create an endpoint for our API to make predictions using our model, JSON-ify them, and return the results to the client, Option exists to call our Keras REST API using both cURL and Python
+###### Sample Use Case
+To Assist consumers to purchase fresh fruits & vegetables by using image detection and compute the probability of freshness in real time by loading a Keras model into memory using the Flask web framework to create an endpoint for our API to make predictions using our model, JSON-ify them, and return the results to the client, Option exists to call our Keras REST API using both cURL and Python
 
 ###### Usage
 * Start the server: python dnnServer.py
