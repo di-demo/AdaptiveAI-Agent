@@ -5,8 +5,7 @@ Adaptive Knowledge based AI powered agent to aid human cognition and act as a hi
 ###### extract meta-knowledge from knowledge
 
 # Current Architecture
-!(/architecture.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](https://github.com/di-demo/AdaptiveAI-Agent/blob/master/architecure.png)
 
 
 # Sample Use Case
